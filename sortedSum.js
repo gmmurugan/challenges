@@ -1,8 +1,8 @@
 // lets take [ 5, 9, 8 ]
 // split the array into 
-// s1 - 5 - sort them and do n^s1[i]
-// s2 - 5, 9 - s2 1^5 + 2^ 9 = 
-// s3 - 5,9,8 - sort them as [ 5, 8, 9 ]  --> 1^5+2^8+3^9 = sum3
+// s1 - 5 - sort them and do n*s1[i]
+// s2 - 5, 9 - s2 1*5 + 2*9 = 
+// s3 - 5,9,8 - sort them as [ 5, 8, 9 ]  --> 1*5+2*8+3*9 = sum3
 // total - sum1+sum2+sum2 mod 10^9+7
 
 function sortedSum(a) {
